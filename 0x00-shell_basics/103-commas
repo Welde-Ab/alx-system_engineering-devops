@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ampX '\n'
+ls -ampX --group-directories first '\n'
