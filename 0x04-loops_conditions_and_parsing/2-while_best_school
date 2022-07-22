@@ -1,8 +1,13 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
 
-i="1";
-while [ $i -lt 11 ];
-   do echo "Best School";
-   i=$($i+1);
-done;
+# Initialize the counter
+i=1
+# Iterate the loop for 5 times
+while [ $i -le 11 ]
+    do
+    # Print Best school
+    echo "Best School"
+    # Increment the value of i by 1
+    (( i++ ))
+done
