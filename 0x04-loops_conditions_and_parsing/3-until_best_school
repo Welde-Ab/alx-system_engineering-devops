@@ -3,6 +3,6 @@
 
 i=10;
 until [ $i -lt 1 ];
-      do echo "Best school";
+      do echo "Best School";
       ((i--))
 done;
