@@ -4,7 +4,7 @@
 # Initialize the counter
 i=1
 # Iterate the loop for 5 times
-while [ $i -le 11 ]
+while [ $i -le 10 ]
     do
     # Print Best school
     echo "Best School"
