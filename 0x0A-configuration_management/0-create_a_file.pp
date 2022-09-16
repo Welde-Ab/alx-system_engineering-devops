@@ -1,5 +1,6 @@
-file {'/tmp/school':
+file {'school':
       path    => '/tmp/school',
+      ensure  => file,
       content => 'I love Puppet',
       owner   => 'www-data',
       group   => 'www-data',
