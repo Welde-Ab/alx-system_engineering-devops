@@ -1,8 +1,10 @@
+#Create school file in /tmp
+
 file {'/tmp/school':
   ensure  => 'present',
-  path    => '/tmp/school',
   content => 'I love Puppet',
-  owner   => 'www-data',
   group   => 'www-data',
   mode    => '0744',
+  owner   => 'www-data',
+  path    => '/tmp/school',
 }
