@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 ## Connects to the remote server 44.197.197.123 via username ubuntu and private key at ~/.ssh/school
 
 ssh -i ~/.ssh/school ubuntu@44.197.197.123
