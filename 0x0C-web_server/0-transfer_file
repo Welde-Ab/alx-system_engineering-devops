@@ -1,7 +1,7 @@
 #!/usr/bin/env	bash
-## Transfer file `file` to a server
-## scp /path/to/file username@a:/path/to/destination
-## Handcoded: scp -i ~/.ssh/id_rsa README.md ubuntu@44.197.197.123:~/
+# Transfer file `file` to a server
+# scp /path/to/file username@a:/path/to/destination
+# Handcoded: scp -i ~/.ssh/id_rsa README.md ubuntu@44.197.197.123:~/
 
 #If number of arguments is >= 3
 if [ "$#" -ge 3 ]
