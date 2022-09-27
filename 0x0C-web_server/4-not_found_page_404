@@ -11,5 +11,5 @@ sudo sed -i "53s|.*|$redirect|" /etc/nginx/sites-enabled/default
 # Custome 404 message
 echo "Ceci n'est pas une page" | sudo tee /usr/share/nginx/html/error_404.html
 
-sudo sed -i "41i \\\terror_page 404 /error_404.html;\n\tlocation = /error_404.html {\n\t\troot /usr/share/nginx/html;\n\t\tinternal;\n\t}" /etc/nginx/sites-available/default
+sudo sed -i "61i \\\terror_page 404 /error_404.html;\n\tlocation = /error_404.html {\n\t\troot /usr/share/nginx/html;\n\t\tinternal;\n\t}" /etc/nginx/sites-available/default
 sudo service nginx restart
