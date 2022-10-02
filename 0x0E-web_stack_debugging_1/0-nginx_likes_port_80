@@ -1,1 +1,6 @@
 #!/usr/bin/bash env
+# This program install nginx on the container holbertonschoo/265
+
+apt-get update
+apt-get install -y nginx
+apt-get install curl
