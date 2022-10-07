@@ -5,3 +5,5 @@ apt-get update
 apt-get install -y nginx
 apt-get install curl
 service nginx start
+ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+cp /usr/share/nginx/html/index.html /var/www/html/
