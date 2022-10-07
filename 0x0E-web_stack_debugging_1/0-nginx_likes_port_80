@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # This program install nginx on the container holbertonschoo/265
-
 apt-get update
 apt-get install -y nginx
 service nginx start
