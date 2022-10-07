@@ -1,4 +1,4 @@
-#!/usr/bin/bash env
+#!/usr/bin/env bash
 # This program install nginx on the container holbertonschoo/265
 
 apt-get update
