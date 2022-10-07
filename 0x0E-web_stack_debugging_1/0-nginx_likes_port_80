@@ -3,8 +3,8 @@
 
 apt-get update
 apt-get install -y nginx
-apt-get install curl
 service nginx start
 ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-cp /usr/share/nginx/html/index.html /var/www/html/
+sed -i "s/listen \[::\]:80 default_server ipv6only=on;/listen \[::\]:80 default_server;/" /etc/nginx/sites-available/default
+# cp /usr/share/nginx/html/index.html /var/www/html/
 service nginx reload
